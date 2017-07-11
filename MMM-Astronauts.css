@@ -1,0 +1,35 @@
+/* Copy and paste any or all of these css entries into your custom.css file inside your
+ * css folder. The functions are annotated to make things as easy as possible for you.
+ * Use any colors you want! For example - "http://htmlcolorcodes.com/color-picker/"
+ * Pick your color, copy and paste the HEX number. Example - #62FF00 = bright green.
+ */
+
+
+.MMM-Astronauts .header {
+  color: white;             /* Color the name text. Default is white. */
+  text-align: left;           /* Align the name text. (left, center, right) */
+}
+
+.MMM-Astronauts .name {
+  color: white;             /* Color the name text. Default is white. */
+  text-align: left;           /* Align the name text. (left, center, right) */
+}
+
+.MMM-Astronauts .craft {
+  color: white;             /* Color the spacecraft text. Default is white. */
+  text-align: left;           /* Align the spacecraft. (left, center, right) */
+/*  display: none; */         /* Uncomment if you don't want the spacecraft */
+}
+
+.MMM-Astronauts .date {
+  color: white;             /* Color the date. Default is white. */
+  text-align: left;           /* Align the date. (left, center, right) */
+/*  display: none; */         /* Uncomment if you don't want the date */
+}
+
+.MMM-Astronauts .photo {
+    width: 300px;             /* Maximum width of image. Retains aspect ratio */
+    padding: 0px;             /* Nudge image */
+    float: left;              /* Align the picture. (left, center, right) */
+/*  display: none; */         /* Uncomment if you don't want picture */
+}
